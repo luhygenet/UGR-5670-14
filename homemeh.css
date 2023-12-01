@@ -1,0 +1,386 @@
+/* Reset some default styles */
+
+h1,
+h2,
+p,
+ul,
+li,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+/* 1 ////////////////////////////////////////////////////////////////// */
+.screen-size {
+  min-width: 400px;
+}
+/* ////////////////////////////////////////////////////////////////// */
+
+/* 2 ////////////////////////////////////////////////////////////////// */
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+/* ////////////////////////////////////////////////////////////////// */
+
+.favorite_places {
+  max-width: 100%; /* Ensures the image doesn't exceed the container width */
+  height: auto; /* Maintains the aspect ratio of the image */
+}
+.work {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+h1,
+h2,
+h5 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.intro {
+  order: 2;
+}
+.One {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+}
+.asides {
+  display: flex;
+  justify-content: end;
+}
+th,
+td {
+  border: solid black;
+}
+.fav1 {
+  width: 140px;
+  height: 140px;
+}
+.foov_tables {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fav_tables {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
+}
+.wendo {
+  padding-top: 100px;
+  
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.logs {
+  width: 70px;
+  height: 70px;
+  border-radius: 25px;
+}
+.experience {
+  display: flex;
+  flex-direction: column;
+}
+.res_pic {
+  width: 200px;
+  height: 250px;
+  border-radius: 10%;
+}
+.unord {
+  padding: 50px;
+}
+.hug {
+  display: flex;
+  flex-direction: column;
+
+  gap: 70px;
+}
+.space {
+  padding: 10px;
+}
+.asidi {
+  display: flex;
+}
+.langano {
+  
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.hawassa {
+ 
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.me {
+  border-radius: 50px;
+  width: 80%;
+  height: 80%;
+}
+.wg {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.l {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.h {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.aside_one {
+  float: right;
+  background-color: grey;
+  border: 1px solid black;
+  width: 20em;
+  padding: 1em;
+  border-radius: 45px;
+}
+
+.img_siz {
+  width: 350px;
+  height: 450px;
+  border-radius: 25%;
+}
+
+header {
+  background-image: url("images/coffee.png");
+  background-color: #1d0200; /* Set the background color to a dark color */
+  color: #fff; /* Set the text color to white */
+  padding: 10px; /* Add some padding to the header */
+  position: relative; /* Add relative positioning to the header */
+  border-radius: 50px;
+  height: 350px;
+}
+.favorite_places {
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+}
+.about_me {
+  width: 40%;
+  height: 40%;
+  border-radius: 25px;
+}
+.hobbi {
+  width: 40%;
+  height: 40%;
+  border-radius: 25px;
+}
+.resum {
+  width: 60%;
+  height: 60%;
+  border-radius: 25px;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.theme {
+  width: 12%;
+  height: 5%;
+  margin: 6px 0;
+  background-color: white;
+  order: 3;
+}
+
+.hey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.heyos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.logo {
+  width: 40px;
+  border-radius: 25px;
+}
+.sp {
+  padding-top: 10px;
+}
+nav {
+  display: flex;
+}
+.sd {
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+blockquote {
+  font-style: italic;
+  color: #333;
+}
+
+/* 3 ////////////////////////////////////////////////////////////////// */
+
+footer {
+  background-color: darkgray;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ////////////////////////////////////////////////////////////////// */
+
+figure {
+  margin: 0;
+}
+
+audio {
+  margin-top: 10px;
+}
+
+.fig_uno {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+}
+.contain1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contain2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contain3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  order: 2;
+}
+.right {
+  order: 1;
+}
+
+.left2 {
+  order: 2;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+.right2 {
+  order: 1;
+}
+
+.left3 {
+  order: 2;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+.right3 {
+  order: 1;
+}
+h5 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+.summary {
+  display: inline-flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 50px;
+  background-color: lightsalmon;
+  padding: 30px;
+}
+.uno {
+  width: 204px;
+  height: 204px;
+  justify-content: center;
+}
+.contaib_col {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.fir_row {
+  display: flex;
+  padding: 50px;
+}
+.sec_row {
+  display: flex;
+  justify-content: space-between;
+}
+.fourth {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+}
+.iphoto {
+  display: flex;
+  gap: 10px;
+}
+.center_me {
+  display: flex;
+  gap: 10px;
+}
+.hdiv {
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.second {
+  width: 700px;
+}
+.third {
+  margin-left: 200px;
+}
+.reads {
+  padding-right: 250px;
+}
+
+/* Responsive design 
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        margin-top: 50px;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}*/
