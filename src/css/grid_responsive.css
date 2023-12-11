@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
-    background-image: url("images/coffee.png");
+    background-image: url("../images/coffee.png");
     color: #fff; 
     padding: 10px; 
     position: relative; 
