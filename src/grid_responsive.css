@@ -1,0 +1,552 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  header{
+    top:0;
+    left:0;
+    right:0;
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0,0,.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    background-image: url("images/coffee.png");
+    color: #fff; 
+    padding: 10px; 
+    position: relative; 
+    border-radius: 50px;
+    height: 350px;
+  }
+  body {
+    background-color: #f2f2f2;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .screen-size {
+    min-width: 500px;
+  }
+  .logo {
+    width: 40px;
+    border-radius: 25px;
+  }
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  .sd {
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: goldenrod;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .footer_infromation {
+    display: flex;
+    justify-content: end;
+  }
+  .page_total{
+    display: flex;
+    
+  }
+  .main {
+    display: grid;
+  }
+  .main__life--audio{
+    display: grid;
+    margin: 70px;
+    order: 2;
+    padding: 10px;
+    padding-top: 50px;
+    gap: 30px;
+  }
+  .main__drinking--coffee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+    padding-top: 10px;
+    
+  }
+  .main__drinking--coffee--img {
+    border-radius: 210px;
+    width: 500px;
+  }
+  blockquote {
+    font-style: italic;
+    color: #333;
+  }
+  audio {
+    margin-top: 10px;
+  }
+  
+  .top_left_img{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+  }
+  
+  
+  .page_name {
+    display: grid;
+    justify-content: end;
+  }
+  
+  .page_name--aside {
+    float: right;
+    background-color: grey;
+    border: 1px solid black;
+    width: 20em;
+    padding: 1em;
+    border-radius: 45px;
+  }
+  .resume_right{
+    display: flex;
+  }
+  .resume_left{
+    padding: 20px;
+  }
+  .resume__total--logos {
+    width: 70px;
+    height: 70px;
+    border-radius: 25px;
+  }
+  .resume_pic {
+    width: 200px;
+    height: 250px;
+    border-radius: 10%;
+  }
+  .all--hobbies {
+    display: grid;
+    grid-template-columns: 25vh 40vh;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  .all--hobbies__second--hobby {
+    width: 50%;
+    margin-left: 0px;
+    padding-left: 0;
+  }
+  .all--hobbies__fourth--hobby {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  .summary {
+    display: grid;
+    border-radius: 10px;
+    margin: 50px;
+    background-color: lightsalmon;
+    padding: 30px;
+  }
+  .first--book{
+    width: 50%;
+    height: 50%;
+  }
+  .Cinematography_pics {
+    max-width:100% ;
+    height:auto;
+  }
+  .all--hobbies__fourth--hobby_my--photos {
+    display: flex;
+    gap: 10px;
+  }
+  .all--hobbies__fourth--hobby_my--photos2{
+    display: flex;
+    gap: 10px;
+  }
+  
+  .all--hobbies__fourth--hobby__cinematography {
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .about--me1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .about--me2 {
+    display: grid;
+    justify-content: center;
+    place-items: center;
+  }
+  .about--me3 {
+    display: grid;
+    justify-content: center;
+    place-items: center;
+  }
+  .about--me1__left1 {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    order: 2;
+  }
+  .about--me1__right1 {
+    order: 1;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .about--me2__left2 {
+    order: 2;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+  .about--me2__right2 {
+    order: 1;
+  }
+  
+  .about--me3__left3 {
+    order: 2;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+  .about--me3__right3 {
+    order: 1;
+  }
+  .favorite_place_each_pic{
+    width: 140px;
+    height: 140px;
+  }
+  .favorites{
+    display: grid;
+    place-items: center;
+    grid-row-gap: 50px;
+    padding: 20px;
+  }
+  .favorites_place_pics__tables {
+    display: grid;
+    
+  }
+  
+  .video {
+    width: 65vh;
+  }
+  .last_row{
+    display: grid;
+    place-items: center;
+  }    
+  h1,h2,p,ul,li,figure {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1,h2{
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  h5 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  th,td {
+    border: solid black;
+  }
+  
+  .image_size {
+    width: 350px;
+    height: 450px;
+    border-radius: 25%;
+  }
+  .addheader{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  
+  /*ebba*/
+  .dropdown{
+    position: absolute;
+    color:black;
+    top:0;
+    right:0;
+    display: block;
+  }
+    
+  .dropdown a{
+    color:black;
+  }
+  
+  .sd{
+    background-color:brown;
+    width:7em;
+    border-radius: 25px;
+  }
+  .hidden{
+    display: none;
+  }
+  .current-page{
+    display: block;
+    border: 1px solid black;
+  }
+  .dropdown:hover .hidden{
+    display: block;
+  }
+  .name{
+    color:white;
+  }
+  @media only screen and (min-width: 481px) and (max-width: 788px ) {
+    .main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+    .main__life--audio{
+      display: grid;
+      margin: 70px;
+      order: 1;
+    }
+    .screen-size {
+      min-width: 500px;
+    }
+    .resume_total{
+  display: flex;
+  }
+  .resume_right {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap:40px;
+  
+  }
+  .all--hobbies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-direction: column;
+  gap: 10px;
+  padding: 50px;
+  }
+  .all--hobbies__fifth--hobby{
+    grid-column-start: 2;
+    grid-column-end: 4;
+      }
+    .about--me1 {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+    .about--me1__left1 {
+      margin-right: 10px;
+      margin-bottom: 50px;
+      order: 1;
+    }
+    .about--me2 {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      justify-content: center;
+      place-items:center ;
+    }
+    .about--me2__left2 {
+      margin-right: 10px;
+      margin-left: 0px;
+      margin-bottom: 50px;
+      order: 2;
+    }
+    .about--me2__right2 {
+      order: 1;
+    }
+    .about--me3 {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+    .about--me3__left3 {
+      order: 1;
+      margin-right: 10px;
+      margin-bottom: 50px;
+    }
+    .about--me3__right3 {
+      order: 2;
+    }
+    .favorites__place_pics{
+      order:1
+    }
+    .langano{
+      order:0
+    
+    }
+    .Hawassa{
+      order:2
+    }
+    .genet{
+      order:2
+    }
+    .video{
+     width: 100%;
+    }
+    .image_size {
+      width: 250px;
+      height: 450px;
+      border-radius: 25%;
+      margin-right: 10px;
+  }
+  
+    nav ul {
+      display: flex;
+      list-style: none;
+    }
+    
+  .favorites{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  grid-row-gap: 50px;
+  grid-column-gap: 20px;
+  padding: 20px;
+  
+  } 
+  
+  
+  
+  }
+  @media only screen and (min-width: 770px)  {
+    .main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+    .main__life--audio{
+      display: grid;
+      margin: 70px;
+      order: 1;
+    }
+    .screen-size {
+      min-width: 500px;
+    }
+    .resume_total{
+  display: flex;
+  }
+  .resume_right {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap:40px;
+  
+  }
+  .all--hobbies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-direction: column;
+  gap: 10px;
+  padding: 50px;
+  }
+  .all--hobbies__fifth--hobby{
+    grid-column-start: 2;
+    grid-column-end: 4;
+      }
+    .about--me1 {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+    .about--me1__left1 {
+      margin-right: 10px;
+      margin-bottom: 50px;
+      order: 1;
+    }
+    .about--me2 {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      justify-content: center;
+      place-items:center ;
+    }
+    .about--me2__left2 {
+      margin-right: 10px;
+      margin-left: 0px;
+      margin-bottom: 50px;
+      order: 2;
+    }
+    .about--me2__right2 {
+      order: 1;
+    }
+    .about--me3 {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+    .about--me3__left3 {
+      order: 1;
+      margin-right: 10px;
+      margin-bottom: 50px;
+    }
+    .about--me3__right3 {
+      order: 2;
+    }
+    .favorites__place_pics{
+      order:1
+    }
+    .langano{
+      order:0
+    
+    }
+    .Hawassa{
+      order:2
+    }
+    .genet{
+      order:2
+    }
+    .video{
+     width: 100%;
+    }
+    .image_size {
+      width: 250px;
+      height: 450px;
+      border-radius: 25%;
+      margin-right: 10px;
+  }
+  
+    nav ul {
+      display: flex;
+      list-style: none;
+    }
+    
+  .favorites{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  grid-row-gap: 50px;
+  grid-column-gap: 20px;
+  padding: 20px;
+  
+  } 
+  .dropdown{
+    display: flex;
+    flex-direction: row;
+  }
+  .hidden{
+    display: block;
+  }
+  .dropdown{
+    display: flex;
+    flex-direction: row;
+  }
+  .hidden{
+    display: block;
+  }
+  
+  }

@@ -3,102 +3,108 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="grid_responsive.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Resume</title>
   </head>
   <body class="screen-size">
-    <header class="resume_header screen-size">
-      <img src="images/Resume.jpg" alt="resume" class="resum" />
-      <nav>
-        <div class="sp">
-          <img src="images/icon.jpg" alt="Logo" class="logo" />
-          <h1>Liya Daniel</h1>
-        </div>
-        <ul>
-          <li class="sd"><a href="./home.html">Home</a></li>
-          <li class="sd"><a href="./About_me.html">About me</a></li>
-          <li class="sd"><a href="./Resume.html">Resume</a></li>
-          <li class="sd"><a href="./Hobbies.html">Hobbies</a></li>
-          <li class="sd">
-            <a href="./favorite_places.html">favorite places</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div class="asides screen-size">
-      <aside class="aside_one">
+    <div class="page_total">
+      <div class="page_total--homeheader">
+    <header class="screen-size">
+      <img src="images/Resume.jpg" alt="resume" class="top_left_img" />
+          <a href = "#" class="name"><img src="images/icon.jpg" alt="Logo" class = "logo";/>LIYA DANIEL</a>
+  
+          <nav class="navbar">
+            
+            <ul class="dropdown">
+                <li class="sd cuurent-page"><a>Resume</a></li>
+                <li class="sd hidden"><a href="./home.html">Home</a></li>
+                <li class="sd hidden"><a href="./About_me.html">About me</a></li>
+                <li class="sd hidden"><a href="./Hobbies.html">Hobbies</a></li>
+                <li class="sd hidden">
+                  <a href="./favorite_places.html">favorite places</a>
+                </li>
+              </ul>
+        </nav>
+      </header>
+    <div class="page_name screen-size">
+      <aside class="page_name--aside">
         <h1>Resume</h1>
       </aside>
     </div>
-    <section class="experience screen-size">
-      <div>
-        <h2>
-          <img
-            src="images/solve_it.png"
-            alt="solve it logo"
-            class="logs"
-          />solve It
-        </h2>
-        <p>
-          <a href="https://icog-labs.com/solveit/" class="logs">Solve IT</a> has
-          been guiding young Ethiopians into the realm of tech entrepreneurship.
-          <br />Took part in a competition to bring forth my problem-solving and
-          creative skills to bring a solution for the community as a whole.
-        </p>
-      </div>
-      <div>
-        <h2>
-          <img src="images/phyton.jpg" alt="phyton logo" class="logs" />Python
-          programming workshop
-        </h2>
-        <p>
-          A workshop where students from different areas come together and take
-          part in a series of competitions comprising problem solving.
-          <br />Team came in second place.
-        </p>
-      </div>
-      <div>
-        <h2>
-          <img src="images/tutor.png" alt="tutor logo" class="logs" />Tutoring I
-          have done
-        </h2>
-        <ul>
-          <li>Taught programming to kids aged 7-14</li>
-          <li>Taught in a public school on weekends</li>
-          <li>Provided red cross training</li>
-        </ul>
-      </div>
-    </section>
-    <aside class="screen-size">
-      <section class="contains_bot">
+    <div class="resume_total screen-size" >
+    <div class="resume_left">
+    
         <div>
-        <img src="images/resume3.jpg" alt="resume picture" class="res_pic"/>
+          <h2>
+            <img
+              src="images/solve_it.png"
+              alt="solve it logo"
+              class="resume__total--logos">
+          </h2>
+          <p>
+            <a href="https://icog-labs.com/solveit/" >Solve IT</a> has
+            been guiding young Ethiopians into the realm of tech entrepreneurship.
+            <br />Took part in a competition to bring forth my problem-solving and
+            creative skills to bring a solution for the community as a whole.
+          </p>
         </div>
         <div>
-          <h2>Others</h2>
+          <h2>
+            <img src="images/phyton.jpg" alt="phyton logo" class="resume__total--logos" />Python
+            programming workshop
+          </h2>
+          <p>
+            A workshop where students from different areas come together and take
+            part in a series of competitions comprising problem solving.
+            <br />Team came in second place.
+          </p>
+        </div>
+        <div>
+          <h2>
+            <img src="images/tutor.png" alt="tutor logo" class="resume__total--logos" />Tutoring I
+            have done
+          </h2>
           <ul>
-            <li>Data Structure projects</li>
-            <li>Arduino workshop</li>
-            <li>Red cross treasurer</li>
-            <li>Coursera online web development course</li>
-            <li>lilu house weekend secretary</li>
+            <li>Taught programming to kids aged 7-14</li>
+            <li>Taught in a public school on weekends</li>
+            <li>Provided red cross training</li>
           </ul>
         </div>
-        <div>
-        <a href="images/resume.pdf" download target="_blank">
-          Download resume
-        </a>
-        </div>
-      </section>
-      <footer>
+      
+    </div>
+    <div class="resume_right">
+        
+          <div>
+          <img src="images/resume3.jpg" alt="resume picture" class="resume_pic"/>
+          </div>
+          <div>
+            <h2>Others</h2>
+            <ul>
+              <li>Data Structure projects</li>
+              <li>Arduino workshop</li>
+              <li>Red cross treasurer</li>
+              <li>Coursera online web development course</li>
+              <li>lilu house weekend secretary</li>
+            </ul>
+          </div>
+          <div>
+          <a href="images/resume.pdf" download target="_blank">
+            Download resume
+          </a>
+          </div>
+      
+      </div>
+    
+    </div>
+      <footer class=" footer screen-size">
         <div>
           <a href="mailto:luhygenet@gmail.com">luhygenet@gmail.com</a>
         </div>
         <div>
-          <aside>
+          <aside class="footer_infromation">
             <a href="https://www.instagram.com/luhy_genet_/"
               ><img src="images/instagram.jpg" alt="instagram" width="20"
             /></a>
@@ -111,6 +117,7 @@
           </aside>
         </div>
       </footer>
-    </aside>
+      </div>
+      </div>
   </body>
 </html>

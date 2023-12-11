@@ -3,42 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="grid_responsive.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <title>Home</title>
     <title>Hobbies</title>
   </head>
-  <body >
-    <header class="hobbies_header screen-size">
-      <img src="images/hobbies.jpg" alt="hobbies" class="hobbi" />
-      <nav>
-        <div class="sp">
-          <img src="images/icon.jpg" alt="Logo" class="logo" />
-          <h1>Liya Daniel</h1>
-        </div>
-        <ul>
-          <li class="sd"><a href="./home.html">Home</a></li>
-          <li class="sd"><a href="./About_me.html">About me</a></li>
-          <li class="sd"><a href="./Resume.html">Resume</a></li>
-          <li class="sd"><a href="./Hobbies.html">Hobbies</a></li>
-          <li class="sd">
-            <a href="./favorite_places.html">favorite places</a>
-          </li>
-        </ul>
+  <body class="screen-size">
+      <header>
+        <img src="images/hobbies.jpg" alt="hobbies" class="top_left_img" />
+        <a href = "#" class="name"><img src="images/icon.jpg" alt="Logo" class = "logo";/>LIYA DANIEL</a>
+
+        <nav class="navbar">
+            
+          <ul class="dropdown">
+              <li class="sd cuurent-page"><a>Hobbies</a></li>
+              <li class="sd hidden"><a href="./home.html">Home</a></li>
+              <li class="sd hidden"><a href="./About_me.html">About me</a></li>
+              <li class="sd hidden"><a href="./Resume.html">Resume</a></li>
+              <li class="sd hidden">
+                <a href="./favorite_places.html">favorite places</a>
+              </li>
+            </ul>
       </nav>
     </header>
-    <div class="asides screen-size">
-      <aside class="aside_one">
+    
+
+    <div class="page_name screen-size">
+      <aside class="page_name--aside">
         <h1>Hobbies</h1>
       </aside>
     </div>
-    <div class="contaib_col screen-size">
-      <div class="fir_row">
-        <div class="first">
-          <img src="images/book_thief.jpg" alt="reading" class="uno" />
-          <div class="reads">
+    <div class="all--hobbies screen-size">
+    
+        <div class="all--hobbies__first--hobby">
+          <img src="images/book_thief.jpg" alt="reading" class="first--book" />
+      
             <h2>Reading</h2>
             <p>
               Since, I was a youngester, reading has been my friend and always
@@ -46,10 +46,9 @@
               Books also have unmaintainable knowlege and power with which we
               can make ourselves stronger
             </p>
-          </div>
         </div>
-        <div class="second">
-          <img src="images/cook.jpg" alt="cooking" />
+        <div class="all--hobbies__second--hobby">
+          <img src="images/cook.jpg" alt="cooking" class="Cinematography_pics"/>
           <h2>Cooking</h2>
           <p>
             Cooking for loved ones is a means to show appreciation and love for
@@ -57,11 +56,19 @@
             knowledge.
           </p>
         </div>
-      </div>
+      
 
-      <div class="sec_row">
-        <div class="fourth">
-          <div class="hdiv">
+        <div class="all--hobbies__third--hobby">
+          <img src="images/garden.jpg" alt="cooking" class="Cinematography_pics" />
+          <h2>Gardening</h2>
+          <p>
+            Even just looking at the green of plants can make me feel lighter.
+            The more plants around us the easier it is to breath. Hence, I have
+            made a Habit of growing small herbs when I can
+          </p>
+        </div>
+        <div class="all--hobbies__fourth--hobby">
+          <div class="all--hobbies__fourth--hobby__cinematography">
             <h2>Cinematography/Photography</h2>
             <p>
               I have always had an eye for good lighting and even better moments
@@ -70,61 +77,53 @@
               forever
             </p>
           </div>
-          <div class="iphoto">
-            <div>
-              <img src="images/eph1.jpg" alt="photograph" class="uno" />
+          <div class="all--hobbies__fourth--hobby_my--photos">
+              <div>
+                <img src="images/eph1.jpg" alt="photograph" class="Cinematography_pics" />
+              </div>
+              <div>
+                <img src="images/eph2.jpg" alt="photograph" class="Cinematography_pics" />
+              </div>
+              <div>
+                <img src="images/eph3.jpg" alt="photograph" class="Cinematography_pics" />
+              </div>
+              <div>
+                <img src="images/eph4.jpg" alt="photograph" class="Cinematography_pics" />
+              </div>
             </div>
-            <div>
-              <img src="images/eph2.jpg" alt="photograph" class="uno" />
-            </div>
-            <div>
-              <img src="images/eph3.jpg" alt="photograph" class="uno" />
-            </div>
-            <div>
-              <img src="images/eph4.jpg" alt="photograph" class="uno" />
-            </div>
-          </div>
-          <div class="center_me">
-            <div>
-              <img src="images/eph6.jpg" alt="photograph" class="uno" />
-            </div>
-            <div>
-              <img src="images/eph7.jpg" alt="photograph" class="uno" />
-            </div>
-            <div>
-              <img src="images/eph5.jpg" alt="photograph" class="uno" />
-            </div>
+            <div class="all--hobbies__fourth--hobby_my--photos2">
+              <div>
+                <img src="images/eph6.jpg" alt="photograph" class="Cinematography_pics" />
+              </div>
+              <div>
+                <img src="images/eph7.jpg" alt="photograph" class="Cinematography_pics" />
+              </div>
+              <div>
+                <img src="images/eph5.jpg" alt="photograph" class="Cinematography_pics" />
+              </div>
           </div>
         </div>
-        <div class="third">
-          <img src="images/garden.jpg" alt="cooking" class="uno" />
-          <h2>Gardening</h2>
-          <p>
-            Even just looking at the green of plants can make me feel lighter.
-            The more plants around us the easier it is to breath. Hence, I have
-            made a Habit of growing small herbs when I can
-          </p>
+      
+        <div class="all--hobbies__fifth--hobby">
+          <figure>
+            <video class="video" controls>
+              <source src="images/seed.mp4" type="video/mp4" />
+              <source src="movie.ogg" type="video/ogg" />
+              Your browser does not support the video tag.
+            </video>
+            <figcaption>The beauty of gardening and green</figcaption>
+          </figure>
         </div>
-      </div>
-      <div class="last_row">
-        <figure>
-          <video class="video" controls>
-            <source src="images/seed.mp4" type="video/mp4" />
-            <source src="movie.ogg" type="video/ogg" />
-            Your browser does not support the video tag.
-          </video>
-          <figcaption>The beauty of gardening and green</figcaption>
-        </figure>
-      </div>
+    
     </div>
-    <footer class="screen-size">
+    <footer class=" footer screen-size">
       <div>
         <a href="mailto:luhygenet@gmail.com" class="link"
           >luhygenet@gmail.com</a
         >
       </div>
       <div>
-        <aside>
+        <aside class="footer_infromation">
           <a href="https://www.instagram.com/luhy_genet_/"
             ><img src="images/instagram.jpg" alt="instagram" width="20"
           /></a>

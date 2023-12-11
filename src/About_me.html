@@ -3,41 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="grid_responsive.css" />
     <title>About me</title>
   </head>
-  <body>
-    <header class="about_me_header screen-size">
+  <body class="screen-size">
+    <div class="page_total">
+      <div class="page_total--homeheader">
+    <header class="screen-size">
       <img
         src="images/about_me_img.jpg"
         alt="about me image"
-        class="about_me"
+        class="top_left_img"
       />
+      <a href = "#" class="name"><img src="images/icon.jpg" alt="Logo" class = "logo";/>LIYA DANIEL</a>
 
-      <nav>
-        <div class="sp">
-          <img src="images/icon.jpg" alt="Logo" class="logo" />
-          <h1>Liya Daniel</h1>
-        </div>
-        <ul>
-          <li class="sd"><a href="./home.html">Home</a></li>
-          <li class="sd"><a href="./About_me.html">About me</a></li>
-          <li class="sd"><a href="./Resume.html">Resume</a></li>
-          <li class="sd"><a href="./Hobbies.html">Hobbies</a></li>
-          <li class="sd">
-            <a href="./favorite_places.html">favorite places</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div class="asides screen-size">
-      <aside class="aside_one">
+      <nav class="navbar">
+            
+        <ul class="dropdown">
+            <li class="sd cuurent-page"><a>About me</a></li>
+            <li class="sd hidden"><a href="./home.html">Home</a></li>
+            <li class="sd hidden"><a href="./Hobbies.html">Hobbies</a></li>
+            <li class="sd hidden"><a href="./Resume.html">Resume</a></li>
+            <li class="sd hidden">
+              <a href="./favorite_places.html">favorite places</a>
+            </li>
+          </ul>
+    </nav>
+  </header>
+    <div class="page_name screen-size">
+      <aside class="page_name--aside">
         <h1>About me</h1>
       </aside>
     </div>
     <section class="screen-size">
-      <div class="contain1">
-        <div class="left">
+      <div class="about--me1">
+        <div class="about--me1__left1">
           <h3>Childhood</h3>
           <p>
             I was born on october 16 2003.<br />As a child, I was very
@@ -51,18 +51,18 @@
             skills.
           </p>
         </div>
-        <div class="right">
+        <div class="about--me1__right1">
           <figure>
             <img
               src="images/me1.jpg"
               alt="me drinking coffee"
-              class="img_siz"
+              class="image_size"
             />
           </figure>
         </div>
       </div>
-      <div class="contain2">
-        <div class="left2">
+      <div class="about--me2">
+        <div class="about--me2__left2">
           <h3>Highschool</h3>
           <p>
             After I became a teenager, I learned many things about myself. I
@@ -73,18 +73,17 @@
             instead of cramming.
           </p>
         </div>
-        <div class="right2">
+        <div class="about--me2__right2">
           <figure>
             <img
               src="images/me2.jpg"
-              alt="me drinking coffee"
-              class="img_siz"
+              class="image_size"
             />
           </figure>
         </div>
       </div>
-      <div class="contain3">
-        <div class="left3">
+      <div class="about--me3">
+        <div class="about--me3__left3">
           <h3>University</h3>
           <p>
             When I enrolled in university in April of 2022, it was a big change,
@@ -96,19 +95,18 @@
             hope to continue on this road to mastery.
           </p>
         </div>
-        <div class="right3">
+        <div class="about--me3__right3">
           <figure>
             <img
               src="images/me3.jpg"
-              alt="me drinking coffee"
-              class="img_siz"
+              class="image_size"
             />
           </figure>
         </div>
       </div>
       <div class="summary">
-        <h5 class="h5">A summary about me</h5>
-        <ul class="id">
+        <h5 >A summary about me</h5>
+        <ul >
           <li>Name: Liya daniel</li>
           <li>occupation: Student</li>
           <li>birthdate: October 16, 2003</li>
@@ -119,12 +117,12 @@
         </ul>
       </div>
     </section>
-    <footer class="screen-size">
+    <footer class="footer screen-size">
       <div>
         <a href="mailto:luhygenet@gmail.com">luhygenet@gmail.com</a>
       </div>
       <div>
-        <aside>
+        <aside class ="footer_infromation">
           <a href="https://www.instagram.com/luhy_genet_/"
             ><img src="images/instagram.jpg" alt="instagram" width="20"
           /></a>
@@ -137,5 +135,7 @@
         </aside>
       </div>
     </footer>
+      </div>
+      </div>
   </body>
 </html>

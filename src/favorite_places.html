@@ -3,51 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="grid_responsive.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <title>Home</title>
     <title>favorite places</title>
   </head>
-  <body>
-    <header class="favorite_places_header screen-size">
-      <img src="images/tra.jpg" alt="Logo" class="favorite_places" />
-      <nav>
-        <div class="sp">
-          <img src="images/icon.jpg" alt="Logo" class="logo" />
-          <h1>Liya Daniel</h1>
-        </div>
-        <ul>
-          <li class="sd"><a href="./home.html">Home</a></li>
-          <li class="sd"><a href="./About_me.html">About me</a></li>
-          <li class="sd"><a href="./Resume.html">Resume</a></li>
-          <li class="sd"><a href="./Hobbies.html">Hobbies</a></li>
-          <li class="sd">
-            <a href="./favorite_places.html">favorite places</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div class="asides screen-size">
-      <aside class="aside_one">
+  <body class="screen-size">
+    <div class="page_total">
+      <div class="page_total--homeheader">
+    <header class="screen-size">
+      <img src="images/tra.jpg" alt="Logo" class="top_left_img" />
+
+      <a href = "#" class="name"><img src="images/icon.jpg" alt="Logo" class = "logo";/>LIYA DANIEL</a>
+
+      <nav class="navbar">
+            
+        <ul class="dropdown">
+            <li class="sd cuurent-page"><a>Favorite places</a></li>
+            <li class="sd hidden"><a href="./home.html">Home</a></li>
+            <li class="sd hidden"><a href="./About_me.html">About me</a></li>
+            <li class="sd hidden"><a href="./Resume.html">Resume</a></li>
+            <li class="sd hidden">
+              <a href="./Hobbies.html">Hobbies</a>
+            </li>
+          </ul>
+    </nav>
+  </header>
+    <div class="page_name screen-size">
+      <aside class="page_name--aside">
         <h1>Favorite places</h1>
       </aside>
     </div>
     <main class="screen-size">
-      <div class="favis">
+      <div class="favorites">
         
-          <div>
-            <table class="foov_tables">
+          <div class="favorites__place_pics">
+            <table class="favorites_place_pics__tables">
               <tr>
-                <td><img src="images/wondo1.jpg" alt="Logo" class="fav1" /></td>
-                <td><img src="images/langano.jpg" alt="Logo" class="fav1" /></td>
-                <td><img src="images/bahir1.jpg" alt="Logo" class="fav1" /></td>
+                <td><img src="images/wondo1.jpg" alt="Logo" class="favorite_place_each_pic" /></td>
+                <td><img src="images/langano.jpg" alt="Logo" class="favorite_place_each_pic" /></td>
+                <td><img src="images/bahir1.jpg" alt="Logo" class="favorite_place_each_pic" /></td>
               </tr>
               <tr>
-                <td><img src="images/lalibela.jpg" alt="Logo" class="fav1" /></td>
-                <td><img src="images/gondar.jpg" alt="Logo" class="fav1" /></td>
-                <td><img src="images/hawassa1.jpg" alt="Logo" class="fav1" /></td>
+                <td><img src="images/lalibela.jpg" alt="Logo" class="favorite_place_each_pic" /></td>
+                <td><img src="images/gondar.jpg" alt="Logo" class="favorite_place_each_pic" /></td>
+                <td><img src="images/hawassa1.jpg" alt="Logo" class="favorite_place_each_pic" /></td>
               </tr>
             </table>
           
@@ -55,7 +56,7 @@
           </div>
       
       
-        <div>
+        <div class="langano">
           <h2>Langano</h2>
           <p>
             one of the placees we visited most growing up was langano, it was a
@@ -64,7 +65,7 @@
             favorite memories happened right at the shore
           </p>
         </div>
-        <div>
+        <div class="Hawassa">
           <h2>Hawassa</h2>
           <p>
             Hawassa and langano went hand in hand, when we were kids we did not
@@ -75,7 +76,7 @@
             was certainly a favorite
           </p>
         </div>
-        <div>
+        <div class="genet">
           <h2>Wendo Genet</h2>
           <p>
             Wendo genet was hands down my favorite paradise. On top of the
@@ -90,12 +91,12 @@
 
       
     </main>
-    <footer class="screen-size">
+    <footer class="footer screen-size">
       <div>
         <a href="mailto:luhygenet@gmail.com">luhygenet@gmail.com</a>
       </div>
       <div>
-        <aside>
+        <aside class="footer_infromation">
           <a href="https://www.instagram.com/luhy_genet_/"
             ><img src="images/instagram.jpg" alt="instagram" width="20"
           /></a>
@@ -108,5 +109,7 @@
         </aside>
       </div>
     </footer>
+    </div>
+    </div>
   </body>
 </html>
