@@ -1,68 +1,106 @@
 <!DOCTYPE html>
 <html lang="eng">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css" integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Home</title>
-    </head>
-    <body> 
-        <header>
-            <img src="images/coffee.png" alt="home image" />
-            <nav>
-                <div>
-                    <img src="imaes/icon.jpg" alt="Logo" class="logo">
-                    <h1>Liya Daniel</h1>
-                </div>
-                <ul>
-                    <li><a href="./home.html">Home</a></li>
-                    <li><a href="./About_me.html">About me</a></li>
-                    <li><a href="./Resume.html">Resume</a></li>
-                    <li><a href="./Hobbies.html">Hobbies</a></li>
-                    <li><a href="./favorite_places.html">favorite places</a></li>
-                </ul>
-            </nav>
-            
-        </header>
-       
-            <p>Hey, I'm Liya Daniel. I am a third year software engineering student <br>I like to read books and solve programming questions in my free time<br> I am positive minded and willing to learn. Here's a quote I like:</p>
-            <blockquote cite="https://www.genesisca.org/single-post/2019/06/17/be-the-change#:~:text=We've%20all%20heard%20the,often%20credited%20with%20saying%20this."> "We but mirror the world. All the tendencies present in the outer world are to be found in the world of our body. If we could change ourselves, the tendencies in the world would also change. <br>As a man changes his own nature, so does the attitude of the world change towards him. This is the divine mystery supreme. A wonderful thing it is and the source of our happiness. We need not wait to see what others do.”</blockquote>
-            <p>If I have not lost your interest so far, click the following link to learn more 
-            <a href="About_me.html">About me
-            </a>
-            </p>
-            <div>
-            <p>if my life had a theme song: </p>
-                    <audio controls autoplay>
-                        <source src="images/gumption.mp3" type="audio/mpeg">
+    <style>
+      .top_head{
+      background-image: url("images/coffee.png");
+      height: 400px;
+  }
+  a{
+        color: black;
+      }
+    </style>
+  </head>
+  <body class="screen-size">
+    <div class="page_total">
+      <div class="page_total--homeheader">
+        <div class="screen-size top_head">
+          <div class="top_heads">
+            <a href = "#" class="name">LIYA DANIEL</a>
+              <nav class="navbar is-pulled-right" style="display: flex; gap: 10px;">
+                <ul class="nav-menu is-pulled-right" style="display: flex; gap: 10px; background-color: brown;" >    
+                    <li class="sd hidden" style="color: black;"><a href="./home.html">Home</a></li>
+                    <li class="sd hidden"><a href="./About_me.html">About me</a></li>
+                    <li class="sd cuurent-page"><a href="./Resume.html">Resume</a></li>
+                    <li class="sd hidden"><a href="./Hobbies.html">Hobbies</a></li>
+                    <li class="sd hidden"><a href="./favorite_places.html">favorite places</a></li>
+                  </ul>
+              </nav>
+            </div>
+          </div>
+      </div>
+      <section class="section">
+        <div class="container center">
+            <div class="columns">
+              <div class="column">
+                  <p class="center">
+                    <strong> Hey, I'm Liya Daniel. I am a third year software engineering student
+                    <br />I like to read books and solve programming questions in my free
+                    time<br />
+                    I am positive minded and willing to learn. Here's a quote I like:
+                  </strong></p>
+                  <blockquote
+                    cite="https://www.genesisca.org/single-post/2019/06/17/be-the-change#:~:text=We've%20all%20heard%20the,often%20credited%20with%20saying%20this."
+                    
+                  >
+                    "We but mirror the world. All the tendencies present in the outer
+                    world are to be found in the world of our body. If we could change
+                    ourselves, the tendencies in the world would also change. <br />As a
+                    man changes his own nature, so does the attitude of the world change
+                    towards him. This is the divine mystery supreme. A wonderful thing it
+                    is and the source of our happiness. We need not wait to see what
+                    others do.”
+                  </blockquote>
+                  <p >
+                    If I have not lost your interest so far, click the following link to
+                    learn more <a href="About_me.html" > About me</a>
+                  </p>
+                
+                  <p>if my life had a theme song:</p>
+                  <audio controls autoplay>
+                    <source src="images/gumption.mp3" type="audio/mpeg" />
                     Your browser does not support the audio element.
-                    </audio>
-            </div>
-            <aside>
-                <figure>
-                    <img src="images/me.png" alt ="me drinking coffee">
-                    <figcaption>
-                      I dont drink coffee, this is tea
-                    </figcaption>
+                  </audio>
+                
+              </div>
+              <div class="column">
+                <figure class="media-right">
+                  <img src="images/me.png" alt="me drinking coffee" style="max-width: 400px; min-width: 0;"  />
+                  <figcaption>I dont drink coffee, this is tea</figcaption>
                 </figure>
+
+               </div>
+            </div>
+           
+          
+          </div>
+        </section>
+    
+
+        <footer class="columns notification is-warning">
+          <div class="column is-three-quarteers">
+            <a href="mailto:luhygenet@gmail.com">luhygenet@gmail.com</a>
+          </div>
+          <div class="column is-one-quarter">
+            <aside class="footer_infromation">
+              <a href="https://www.instagram.com/luhy_genet_/"
+                ><img src="images/instagram.jpg" alt="instagram" width="20"
+              /></a>
+              <a href="https://www.linkedin.com/in/liya-daniel-51b73225b/"
+                ><img src="images/linkedin.png" alt="linkedin" width="20"
+              /></a>
+              <a href="https://t.me/Luhy_gen"
+                ><img src="images/telegram.png" alt="telegram" width="20"
+              /></a>
             </aside>
-
-
-        <footer>
-            <div>
-                <a href="mailto:luhygenet@gmail.com">luhygenet@gmail.com</a>
-            </div>
-            <div>
-                <aside>
-                    <a href="https://www.instagram.com/luhy_genet_/"><img src="images/instagram.jpg" alt="instagram" width="20"></a>
-                    <a href="https://www.linkedin.com/in/liya-daniel-51b73225b/"><img src="images/linkedin.png" alt="linkedin"  width="20"></a>
-                    <a href="https://t.me/Luhy_gen"><img src="images/telegram.png" alt="telegram"  width="20"></a>
-                </aside>
-            </div>
+          </div>
         </footer>
-    </body>
+  
+    </div>
+    </div>
+  </body>
 </html>
-
-
-
-       
-		
