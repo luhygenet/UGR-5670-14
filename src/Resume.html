@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/grid_responsive.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src ="./js/responsive.js" defer></script>
+    
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Resume</title>
@@ -12,23 +15,54 @@
   <body class="screen-size">
     <div class="page_total">
       <div class="page_total--homeheader">
-    <header class="screen-size">
-      <img src="images/Resume.jpg" alt="resume" class="top_left_img" />
-          <a href = "#" class="name"><img src="images/icon.jpg" alt="Logo" class = "logo";/>LIYA DANIEL</a>
-  
-          <nav class="navbar">
-            
-            <ul class="dropdown">
-                <li class="sd cuurent-page"><a>Resume</a></li>
-                <li class="sd hidden"><a href="./home.html">Home</a></li>
-                <li class="sd hidden"><a href="./About_me.html">About me</a></li>
-                <li class="sd hidden"><a href="./Hobbies.html">Hobbies</a></li>
-                <li class="sd hidden">
-                  <a href="./favorite_places.html">favorite places</a>
-                </li>
-              </ul>
-        </nav>
-      </header>
+        <div class="screen-size top_head">
+          <div class="top_heads">
+            <a href = "#" class="name"><img src="images/icon.jpg" alt="Logo" class = "logo";/>LIYA DANIEL</a>
+    
+              <nav class="navbar">
+                    
+                <ul class="dropdown">
+                    
+                    <li class="sd hidden"><a href="./home.html">Home</a></li>
+                    <li class="sd hidden"><a href="./About_me.html">About me</a></li>
+                    <li class="sd cuurent-page"><a>Resume</a></li>
+                    <li class="sd hidden"><a href="./Hobbies.html">Hobbies</a></li>
+                    <li class="sd hidden"><a href="./favorite_places.html">favorite places</a></li>
+                  </ul>
+            </nav>
+            <div class="slider-wrapper screen-size">
+              
+              <button id ="prev-slide" class="slide-button material-symbols-outlined">chevron_left</button>
+                <div class="img_list">
+                  <img
+                  src="images/typing.png"
+                  alt="about me image"
+                  class="top_left_img screen-size"
+                />
+                <img
+                  src="images/Resume.jpg"
+                  alt="about me image"
+                  class="top_left_img screen-size"
+                />
+               
+                
+                <img
+                  src="images/sucess.jpg"
+                  alt="about me image"
+                  class="top_left_img screen-size"
+                />
+              </div>
+           
+              <button id ="next-slide" class="slide-button material-symbols-outlined">chevron_right</button>
+              <div class = "slider-scrollbar">
+                <div class="scrollbar-track">
+                  <div class="scrollbar-thumb"></div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+      </div>
     <div class="page_name screen-size">
       <aside class="page_name--aside">
         <h1>Resume</h1>

@@ -4,84 +4,114 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/grid_responsive.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src ="./js/responsive.js" defer></script>
     <title>About me</title>
   </head>
   <body class="screen-size">
     <div class="page_total">
       <div class="page_total--homeheader">
-    <header class="screen-size">
-      <img
-        src="images/about_me_img.jpg"
-        alt="about me image"
-        class="top_left_img"
-      />
-      <a href = "#" class="name"><img src="images/icon.jpg" alt="Logo" class = "logo";/>LIYA DANIEL</a>
+          <div class="screen-size top_head">
+            <div class="top_heads">
+              <a href = "#" class="name"><img src="images/icon.jpg" alt="Logo" class = "logo";/>LIYA DANIEL</a>
 
-      <nav class="navbar">
+                <nav class="navbar">
+                      
+                  <ul class="dropdown">
+                      
+                      <li class="sd hidden"><a href="./home.html">Home</a></li>
+                      <li class="sd cuurent-page"><a >About me</a></li>
+                      <li class="sd hidden"><a href="./Resume.html">Resume</a></li>
+                      <li class="sd hidden"><a href="./Hobbies.html">Hobbies</a></li>
+                      <li class="sd hidden"><a href="./favorite_places.html">favorite places</a> </li>
+                    </ul>
+              </nav>
+              <div class="slider-wrapper screen-size">
+                
+                <button id ="prev-slide" class="slide-button material-symbols-outlined">chevron_left</button>
+                  <div class="img_list">
+                  
+                  <img
+                    src="images/about_me_img.jpg"
+                    alt="about me image"
+                    class="top_left_img screen-size"
+                  />
+                  <img
+                    src="images/about_space.avif"
+                    alt="about me image"
+                    class="top_left_img screen-size"
+                  />
+                  
+                  <img
+                    src="images/persist.png"
+                    alt="about me image"
+                    class="top_left_img screen-size"
+                  />
+                </div>
             
-        <ul class="dropdown">
-            <li class="sd cuurent-page"><a>About me</a></li>
-            <li class="sd hidden"><a href="./home.html">Home</a></li>
-            <li class="sd hidden"><a href="./Hobbies.html">Hobbies</a></li>
-            <li class="sd hidden"><a href="./Resume.html">Resume</a></li>
-            <li class="sd hidden">
-              <a href="./favorite_places.html">favorite places</a>
-            </li>
-          </ul>
-    </nav>
-  </header>
+                <button id ="next-slide" class="slide-button material-symbols-outlined">chevron_right</button>
+                <div class = "slider-scrollbar">
+                  <div class="scrollbar-track">
+                    <div class="scrollbar-thumb"></div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            
+        </div>
     <div class="page_name screen-size">
       <aside class="page_name--aside">
         <h1>About me</h1>
       </aside>
-    </div>
-    <section class="screen-size">
-      <div class="about--me1">
-        <div class="about--me1__left1">
-          <h3>Childhood</h3>
-          <p>
-            I was born on october 16 2003.<br />As a child, I was very
-            adventourous. Me and my older sister were always curious to discover
-            and learn. <br />Our father is very keen on exploring and I suppose
-            that's who we inherited it from. Growing up he would always take us
-            on field trips and try to make us as aware as possible about our
-            surroundings. <br />
-            I attended the same school from kindergarten all the way untill i
-            graduated highschool, which may have made weakened my interaction
-            skills.
-          </p>
-        </div>
-        <div class="about--me1__right1">
-          <figure>
-            <img
-              src="images/me1.jpg"
-              alt="me drinking coffee"
-              class="image_size"
-            />
-          </figure>
-        </div>
-      </div>
-      <div class="about--me2">
-        <div class="about--me2__left2">
-          <h3>Highschool</h3>
-          <p>
-            After I became a teenager, I learned many things about myself. I
-            grew closer to my religion and started being more aware of different
-            situations of my country and the world. <br />
-            I decided I wanted to be a software engineer student then, when I
-            realized I was more of a person who preferred critical thinking
-            instead of cramming.
-          </p>
-        </div>
-        <div class="about--me2__right2">
-          <figure>
-            <img
-              src="images/me2.jpg"
-              class="image_size"
-            />
-          </figure>
-        </div>
-      </div>
+          </div>
+          <section class="screen-size">
+            <div class="about--me1">
+              <div class="about--me1__left1">
+                <h3>Childhood</h3>
+                <p>
+                  I was born on october 16 2003.<br />As a child, I was very
+                  adventourous. Me and my older sister were always curious to discover
+                  and learn. <br />Our father is very keen on exploring and I suppose
+                  that's who we inherited it from. Growing up he would always take us
+                  on field trips and try to make us as aware as possible about our
+                  surroundings. <br />
+                  I attended the same school from kindergarten all the way untill i
+                  graduated highschool, which may have made weakened my interaction
+                  skills.
+                </p>
+              </div>
+              <div class="about--me1__right1">
+                <figure>
+                  <img
+                    src="images/me1.jpg"
+                    alt="me drinking coffee"
+                    class="image_size"
+                  />
+                </figure>
+              </div>
+            </div>
+            <div class="about--me2">
+              <div class="about--me2__left2">
+                <h3>Highschool</h3>
+                <p>
+                  After I became a teenager, I learned many things about myself. I
+                  grew closer to my religion and started being more aware of different
+                  situations of my country and the world. <br />
+                  I decided I wanted to be a software engineer student then, when I
+                  realized I was more of a person who preferred critical thinking
+                  instead of cramming.
+                </p>
+              </div>
+              <div class="about--me2__right2">
+                <figure>
+                  <img
+                    src="images/me2.jpg"
+                    class="image_size"
+                  />
+                </figure>
+              </div>
+            </div>
       <div class="about--me3">
         <div class="about--me3__left3">
           <h3>University</h3>
