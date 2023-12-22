@@ -1,79 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!--<script src ="responsive.js" defer></script>-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/output.css"/>
+    
     <title>favorite places</title>
-</head>
-<body>
-    <header>
-            <img src="images/tra.jpg" alt="Logo" />
-            <nav>
-                <div>
-                    <img src="imaes/icon.jpg" alt="Logo" class="logo">
-                    <h1>Liya Daniel</h1>
-                </div>
-                <ul>
-                    <li><a href="./home.html">Home</a></li>
-                    <li><a href="./About_me.html">About me</a></li>
-                    <li><a href="./Resume.html">Resume</a></li>
-                    <li><a href="./Hobbies.html">Hobbies</a></li>
-                    <li><a href="./favorite_places.html">favorite places</a></li>
-                </ul>
-            </nav>   
-    </header>
-    <div>
-        <aside>
-            <h1>Favorite places</h1>
-        </aside>
-    </div>
-    <main>
-        <section>
-            <div>
-                <h2>Langano</h2>
-                <p>one of the placees we visited most growing up was langano, it was a family-favorite and thus we most frequented it most.<br> It's beaches and the lake was warm and comforting. some of my favorite memories happened right at the shore</p>
-            </div>
-            <div>
-                <h2>Hawassa</h2>
-                <p>Hawassa and langano went hand in hand, when we were kids we did not visit one without visiting the other.<br> When we went there as kids, Hawassa was so green and brimming with nature, every short walk doesn't seem short at all. The animals seemed to be our friends. The water making it nice and cold. Hawassa was certainly a favorite</p>
-            </div>
-        </section>
-
-        <aside>
-            <section>
-                <div>
-                    <table>
+    <style>
+      .top_head {
+        background-image: url("images/coffee.png");
+      }
+      a{
+        color: black;
+      }
+    </style>
+    
+        <title>Resume</title>
+      </head>
+      <body class="screen-size">
+        <div class="page_total">
+          <div class="page_total--homeheader">
+            <div class="screen-size top_head">
+              <div class="top_heads">
+                <a href = "#" class="name">LIYA DANIEL</a>
+                <nav class="navbar flex justify-end mr-10 rounded-lg">
+                  <ul class="nav-menu flex text-right rounded-sm bg-yellow-900">
+                    <li class="sd ml-3 " style="color: black;"><a href="./home.html">Home</a></li>
+                    <li class="sd ml-3"><a href="./About_me.html">About me</a></li>
+                    <li class="sd ml-3"><a href="./Resume.html">Resume</a></li>
+                    <li class="sd ml-3"><a href="./Hobbies.html">Hobbies</a></li>
+                    <li class="sd ml-3 cuurent-page"><a href="./favorite_places.html">favorite places</a></li>
+                  </ul>
+              </nav>
+                <div class="slider-wrapper screen-size">
+                  
+                  <button id ="prev-slide" class="slide-button material-symbols-outlined">chevron_left</button>
+                  <div class="columns flex">
+                    <div class="column" style="width: 30%;">
+                      <img src="images/tra.jpg" alt="about me image" class="image" />
+                    </div>
+                    <div class="column" style="width: 30%;">
+                      <img src="images/travel2.jpg" alt="about me image" class="image" />
+                    </div>
+                    <div class="column" style="width: 30%;">
+                      <img src="images/we_go.webp" alt="about me image" class="image" />
+                    </div>
+                  </div>
+               
+                  <button id ="next-slide" class="slide-button material-symbols-outlined">chevron_right</button>
+                  <div class = "slider-scrollbar">
+                    <div class="scrollbar-track">
+                      <div class="scrollbar-thumb"></div>
+                    </div>
                     
-                        <tr>
-                            <td><img src="images/wondo1.jpg" alt="Logo" class="logo">	</td>
-                            <td><img src="images/langano.jpg" alt="Logo" class="logo"></td>
-                            <td><img src="images/bahir1.jpg" alt="Logo" class="logo"></td>
-                        </tr>
-                        <tr>
-                            <td><img src="images/lalibela.jpg" alt="Logo" class="logo">	</td>
-                            <td><img src="images/gondar.jpg" alt="Logo" class="logo"></td>
-                            <td><img src="images/hawassa1.jpg" alt="Logo" class="logo"></td>
-                        </tr>
-                    </table>
+                  </div>
                 </div>
-                <div>
-                    <h2>Wendo Genet</h2>
-                    <p>Wendo genet was hands down my favorite paradise. On top of the fact that it's surname is my mother's name, wendo genet had so much to offer to young me. Though it has been years since i've vistied, and we didn't visit nearly as much as we did all our other destinations, it still had the greatest effect on me and is -to this day- my most favorite place</p>
-                </div>
-            </section>
-        </aside>
+              </div>
+          </div>
+        </div>
+    
+    <main class="screen-size">
+      <div class="favorites">
+                     
+            <div class="columns md:flex m-10">
+              <div class="column flex-1 md: order-2">
+                <table class="favorites_place_pics__tables mb-5 text justify-center">
+                  <tr>
+                    <td><img src="images/wondo1.jpg" alt="Logo" class="favorite_place_each_pic w-36 h-36" /></td>
+                    <td><img src="images/langano.jpg" alt="Logo" class="favorite_place_each_pic w-36 h-36" /></td>
+                    <td><img src="images/bahir1.jpg" alt="Logo" class="favorite_place_each_pic w-36 h-36"></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/lalibela.jpg" alt="Logo" class="favorite_place_each_pic favorite_place_each_pic w-36 h-36"/></td>
+                    <td><img src="images/gondar.jpg" alt="Logo" class="favorite_place_each_pic favorite_place_each_pic w-36 h-36" /></td>
+                    <td><img src="images/hawassa1.jpg" alt="Logo" class="favorite_place_each_pic favorite_place_each_pic w-36 h-36"/></td>
+                  </tr>
+                </table>
+              </div> 
+
+              <div class="column flex-1 md:order-1">
+                <h2 class="font-serif font-bold text-lg mb-7">Langano</h2>
+                <p>
+                  One of the places we visited most growing up was Langano. It was a family favorite, and thus we frequented it the most.
+                  Its beaches and the warm lake were comforting, and some of my favorite memories happened right at the shore.
+                </p>
+              </div>
+           
+          
+          
+        </div>
+         
+      
+        <div class="columns md:flex m-10">
+
+        
+        <div class="column">
+          <h2 class="font-serif font-bold text-lg mb-7">Hawassa</h2>
+          <p>
+            Hawassa and langano went hand in hand, when we were kids we did not
+            visit one without visiting the other.<br />
+            When we went there as kids, Hawassa was so green and brimming with
+            nature, every short walk doesn't seem short at all. The animals
+            seemed to be our friends. The water making it nice and cold. Hawassa
+            was certainly a favorite
+          </p>
+        </div>
+        <div class="column">
+          <h2 class="font-serif font-bold text-lg mb-7">Wendo Genet</h2>
+          <p>
+            Wendo genet was hands down my favorite paradise. On top of the
+            fact that it's surname is my mother's name, wendo genet had so
+            much to offer to young me. Though it has been years since i've
+            vistied, and we didn't visit nearly as much as we did all our
+            other destinations, it still had the greatest effect on me and is
+            -to this day- my most favorite place
+          </p>
+        </div>
+        </div>
+      
+
+      
     </main>
-    <footer>
-        <div>
-            <a href="mailto:luhygenet@gmail.com">luhygenet@gmail.com</a>
-        </div>
-        <div>
-            <aside>
-                <a href="https://www.instagram.com/luhy_genet_/"><img src="images/instagram.jpg" alt="instagram" width="20"></a>
-                <a href="https://www.linkedin.com/in/liya-daniel-51b73225b/"><img src="images/linkedin.png" alt="linkedin"  width="20"></a>
-                <a href="https://t.me/Luhy_gen"><img src="images/telegram.png" alt="telegram"  width="20"></a>
-            </aside>
-        </div>
+    <footer class="flex justify-between bg-yellow-300">
+      <div class="column is-three-quarteers flex justify-start">
+        <a href="mailto:luhygenet@gmail.com">luhygenet@gmail.com</a>
+      </div>
+      <div class="column is-one-quarter flex justify-end">
+        <aside class="footer_infromation flex">
+          <a href="https://www.instagram.com/luhy_genet_/"
+            ><img src="images/instagram.jpg" alt="instagram" width="20"
+          /></a>
+          <a href="https://www.linkedin.com/in/liya-daniel-51b73225b/"
+            ><img src="images/linkedin.png" alt="linkedin" width="20"
+          /></a>
+          <a href="https://t.me/Luhy_gen"
+            ><img src="images/telegram.png" alt="telegram" width="20"
+          /></a>
+        </aside>
+      </div>
     </footer>
-</body>
+    </div>
+    </div>
+  </body>
 </html>

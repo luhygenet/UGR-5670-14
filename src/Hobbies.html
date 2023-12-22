@@ -1,90 +1,168 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!--<script src ="responsive.js" defer></script>-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel = "stylesheet" href="../dist/output.css"/>
     <title>Hobbies</title>
-</head>
-<body>
-    <header>
-            <img src="images/hobbies.jpg" alt="hobbies">
-            <nav>
-                <div>
-                    <img src="imaes/icon.jpg" alt="Logo" class="logo">
-                    <h1>Liya Daniel</h1>
+    <style>
+      .top_head {
+        background-image: url("images/coffee.png");
+      }
+      a{
+        color: black;
+      }
+    </style>
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <title>Resume</title>
+      </head>
+      <body class="screen-size">
+        <div class="page_total">
+          <div class="page_total--homeheader">
+            <div class="screen-size top_head">
+              <div class="top_heads">
+                <a href = "#" class="name">LIYA DANIEL</a>
+                <nav class="navbar flex justify-end mr-10 rounded-lg">
+                    <ul class="nav-menu flex text-right rounded-sm bg-yellow-900">
+                      <li class="sd ml-3 " style="color: black;"><a href="./home.html">Home</a></li>
+                      <li class="sd ml-3"><a href="./About_me.html">About me</a></li>
+                      <li class="sd ml-3"><a href="./Resume.html">Resume</a></li>
+                      <li class="sd ml-3 cuurent-page"><a href="./Hobbies.html">Hobbies</a></li>
+                      <li class="sd ml-3"><a href="./favorite_places.html">favorite places</a></li>
+                    </ul>
+                </nav>
+                <div class="slider-wrapper screen-size flex">
+                  
+                  <button id ="prev-slide" class="slide-button material-symbols-outlined">chevron_left</button>
+                  <div class="columns flex ">
+                    <div class="column ;">
+                      <img src="images/hobbies.jpg" alt="about me image" class="image w-56" />
+                    </div>
+                    <div class="column" style="width: 30%;">
+                      <img src="images/bike.jpg" alt="about me image" class="image" />
+                    </div>
+                    <div class="column" style="width: 30%;">
+                      <img src="images/books_.jpg" alt="about me image" class="image" />
+                    </div>
+                  </div>
+               
+                  <button id ="next-slide" class="slide-button material-symbols-outlined">chevron_right</button>
+                  <div class = "slider-scrollbar">
+                    <div class="scrollbar-track">
+                      <div class="scrollbar-thumb"></div>
+                    </div>
+                    
+                  </div>
                 </div>
-                <ul>
-                    <li><a href="./home.html">Home</a></li>
-                    <li><a href="./About_me.html">About me</a></li>
-                    <li><a href="./Resume.html">Resume</a></li>
-                    <li><a href="./Hobbies.html">Hobbies</a></li>
-                    <li><a href="./favorite_places.html">favorite places</a></li>
-                </ul>
-            </nav>
-    </header>
-    <div>
-        <aside>
-            <h1>Hobbies</h1>
-        </aside>
-    </div>
-    <div id="container">
-        <div> 
-            <img src="images/book_thief.jpg" alt="reading">
-            <h2>Reading</h2>
-            <p>Since, I was a youngester, reading has been my friend and always provided a means of escape when necessary. <br> Books also have unmaintainable knowlege and power with which we can make ourselves stronger</p>
+              </div>
+          </div>
         </div>
-        <div> 
-            <img src="images/cook.jpg" alt="cooking">
-            <h2>Cooking</h2>
-            <p>Cooking for loved ones is a means to show appreciation and love for me.<br>It also comes with mistakes which helps give me new knowledge.</p>
+        <div class="page_name screen-size">  
+          <aside class="page_name--aside text-right bg-gray-700">
+            <h1 class="text-lg ">Hobbies</h1>
+          </aside>
         </div>
-        <div> 
-            <img src="images/garden.jpg" alt="cooking">
-            <h2>Gardening</h2>
-            <p>Even just looking at the green of plants can make me feel lighter. The more plants around us the easier it is to breath. Hence, I have made a Habit of growing small herbs when I can</p>
+    <section class="section">
+      <div class="flex justify-center m-10">
+        <div class="flex-1">
+          <div class="all--hobbies__first--hobby">
+            <img src="images/book_thief.jpg" alt="reading" class="first--book w-60 mb-7" />
+            <h2 class="font-serif font-bold text-lg mb-7">Reading</h2>
+            <p>
+              Since I was a youngster, reading has been my friend and always provided a means of escape when necessary.
+              Books also have immeasurable knowledge and power with which we can make ourselves stronger.
+            </p>
+          </div>
         </div>
-    </div>
-    <section>
-        <div> 
-            <h2>Cinematography/Photography</h2>
-            <p>I have always had an eye for good lighting and even better moments that are worth capturing.<br> With a good lens and some cooperative people, a moment can be kept forever</p>
-            <div>
-                <img src="images/eph1.jpg" alt="photograph">
-                <img src="images/eph2.jpg" alt="photograph">
-                <img src="images/eph3.jpg" alt="photograph">
-                <img src="images/eph4.jpg" alt="photograph">
-                <img src="images/eph5.jpg" alt="photograph">
-                <img src="images/eph6.jpg" alt="photograph">
-                <img src="images/eph7.jpg" alt="photograph">
-				
-			</div>
+        <div class="flex-1">
+          <div class="all--hobbies__first--hobby">
+            <img src="images/cook.jpg" alt="cooking" class="Cinematography_pics w-60 mb-7" />
+            <h2 class="font-serif font-bold text-lg mb-7">Cooking</h2>
+            <p>
+              Cooking for loved ones is a means to show appreciation and love for me.
+              It also comes with mistakes that help me gain new knowledge.
+            </p>
+          </div>
         </div>
-        <div>
-            <aside>
-                <figure>
-                    <video width="320" height="240" controls>
-                        <source src="images/gumption.mp3" type="video/mp4">
-                        <source src="movie.ogg" type="video/ogg">
-                    Your browser does not support the video tag.
-                    </video>
-                    <figcaption>
-                      The beauty of gardening and green
-                    </figcaption>
-                </figure>
-            </aside>
+        <div class="flex-1">
+          <div class="all--hobbies__first--hobby">
+            <img src="images/garden.jpg" alt="gardening" class="Cinematography_pics w-60 mb-7" />
+            <h2 class="font-serif font-bold text-lg mb-7">Gardening</h2>
+            <p>
+              Even just looking at the green of plants can make me feel lighter.
+              The more plants around us, the easier it is to breathe. Hence, I have made a habit of growing small herbs when I can.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
-        <footer>
-            <div>
-                <a href="mailto:luhygenet@gmail.com">luhygenet@gmail.com</a>
+    <section class="section flex">
+        <div class="all--hobbies__fourth--hobby">
+          <div class="columns flex m-10">
+            <div class="column md:flex-grow">
+              <div class="all--hobbies__fourth--hobby__cinematography ">
+                <h2 class="font-serif font-bold text-lg mb-7">Cinematography/Photography</h2>
+                <p>
+                  I have always had an eye for good lighting and even better moments that are worth capturing.<br />
+                  With a good lens and some cooperative people, a moment can be kept forever
+                </p>
+              </div>
+              <section class="section">
+                <div class="container mx-auto ">
+                  <div class="grid grid-cols-4 gap-4">
+                    <img src="images/eph1.jpg" alt="photograph" class="Cinematography_pics col-span-1" />
+                    <img src="images/eph2.jpg" alt="photograph" class="Cinematography_pics col-span-1" />
+                    <img src="images/eph3.jpg" alt="photograph" class="Cinematography_pics col-span-1" />
+                    <img src="images/eph4.jpg" alt="photograph" class="Cinematography_pics col-span-1" />
+                    <img src="images/eph6.jpg" alt="photograph" class="Cinematography_pics col-span-1" />
+                    <img src="images/eph7.jpg" alt="photograph" class="Cinematography_pics col-span-1" />
+                    <img src="images/eph5.jpg" alt="photograph" class="Cinematography_pics col-span-1" />
+                  </div>
+                </div>
+              </section>
             </div>
-            <div>
-                <aside>
-                    <a href="https://www.instagram.com/luhy_genet_/"><img src="images/instagram.jpg" alt="instagram" width="20"></a>
-                    <a href="https://www.linkedin.com/in/liya-daniel-51b73225b/"><img src="images/linkedin.png" alt="linkedin"  width="20"></a>
-                    <a href="https://t.me/Luhy_gen"><img src="images/telegram.png" alt="telegram"  width="20"></a>
-                </aside>
+            <div class="column ">
+              <div class="all--hobbies__fifth--hobby">
+                <figure>
+                  <video class="video " controls>
+                    <source src="images/seed.mp4" type="video/mp4" />
+                    <source src="movie.ogg" type="video/ogg" />
+                    Your browser does not support the video tag.
+                  </video>
+                  <figcaption>The beauty of gardening and green</figcaption>
+                </figure>
+              </div>
             </div>
-        </footer>
-    </body>
+          </div>
+  </div>
+</div>
+</div>
+</section>
+<footer class="flex justify-between bg-yellow-300">
+  <div class="column is-three-quarteers flex justify-start">
+    <a href="mailto:luhygenet@gmail.com">luhygenet@gmail.com</a>
+  </div>
+  <div class="column is-one-quarter flex justify-end">
+    <aside class="footer_infromation flex">
+      <a href="https://www.instagram.com/luhy_genet_/"
+        ><img src="images/instagram.jpg" alt="instagram" width="20"
+      /></a>
+      <a href="https://www.linkedin.com/in/liya-daniel-51b73225b/"
+        ><img src="images/linkedin.png" alt="linkedin" width="20"
+      /></a>
+      <a href="https://t.me/Luhy_gen"
+        ><img src="images/telegram.png" alt="telegram" width="20"
+      /></a>
+    </aside>
+  </div>
+</footer>
+    
+  </body>
 </html>
