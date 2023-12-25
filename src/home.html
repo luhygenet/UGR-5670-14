@@ -1,65 +1,96 @@
 <!DOCTYPE html>
 <html lang="eng">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/main.min.css">
         <title>Home</title>
-    </head>
-    <body> 
-        <header>
-            <img src="images/coffee.png" alt="home image" />
-            <nav>
-                <div>
-                    <img src="imaes/icon.jpg" alt="Logo" class="logo">
-                    <h1>Liya Daniel</h1>
-                </div>
-                <ul>
-                    <li><a href="./home.html">Home</a></li>
-                    <li><a href="./About_me.html">About me</a></li>
-                    <li><a href="./Resume.html">Resume</a></li>
-                    <li><a href="./Hobbies.html">Hobbies</a></li>
-                    <li><a href="./favorite_places.html">favorite places</a></li>
+    <style>
+      .top_head{
+      background-image: url("images/coffee.png");
+      height: 400px;
+  }
+  a{
+        color: black;
+      }
+    </style>
+  </head>
+  <body class="screen-size">
+    <div class="page_total">
+      
+        <div class="screen-size top_head">
+            <div class="top_heads">
+              <a href="#" class="name">LIYA DANIEL</a>
+              <div class="dropdown mt-3 d-md-none d-flex justify-content-end">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="bool-dropdown" data-bs-toggle="dropdown">
+                  Home
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="bool-dropdown">
+                  <li><a href="./About_me.html">About me</a></li>
+                  <li><a href="./Resume.html">Resume</a></li>
+                  <li><a href="./Hobbies.html">Hobbies</a></li>
+                  <li><a href="./favorite_places.html">Favorite places</a></li>
                 </ul>
-            </nav>
-            
-        </header>
-       
-            <p>Hey, I'm Liya Daniel. I am a third year software engineering student <br>I like to read books and solve programming questions in my free time<br> I am positive minded and willing to learn. Here's a quote I like:</p>
-            <blockquote cite="https://www.genesisca.org/single-post/2019/06/17/be-the-change#:~:text=We've%20all%20heard%20the,often%20credited%20with%20saying%20this."> "We but mirror the world. All the tendencies present in the outer world are to be found in the world of our body. If we could change ourselves, the tendencies in the world would also change. <br>As a man changes his own nature, so does the attitude of the world change towards him. This is the divine mystery supreme. A wonderful thing it is and the source of our happiness. We need not wait to see what others do.”</blockquote>
-            <p>If I have not lost your interest so far, click the following link to learn more 
-            <a href="About_me.html">About me
-            </a>
-            </p>
-            <div>
-            <p>if my life had a theme song: </p>
-                    <audio controls autoplay>
-                        <source src="images/gumption.mp3" type="audio/mpeg">
+              </div>
+          
+              <div class="d-none d-md-flex justify-content-end">
+                <div class="ms-auto">
+                  <a href="./home.html" class="btn btn-secondary mt-3">Home</a>
+                  <a href="./About_me.html" class="btn btn-secondary mt-3">About me</a>
+                  <a href="./Resume.html" class="btn btn-secondary mt-3">Resume</a>
+                  <a href="./Hobbies.html" class="btn btn-secondary mt-3">Hobbies</a>
+                  <a href="./favorite_places.html" class="btn btn-secondary mt-3">Favorite places</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+           
+              <div class="row d-md-flex justify-content-center mt-5 m-5">
+                <div class="col-md order-1 order-md-2 d-flex text-center align-items-center">
+                  <figure >
+                    <img src="images/me.png" alt="me drinking coffee" class=" rounded w-100" />
+                    <figcaption>I don't drink coffee, this is tea</figcaption>
+                  </figure>
+                </div>
+                <div class="col-md order-2 order-md-1">
+                  <p class="center mt-3">
+                    <strong>Hey, I'm Liya Daniel. I am a third-year software engineering student.<br />I like to read books and solve programming questions in my free time.<br />I am positive-minded and willing to learn. Here's a quote I like:</strong>
+                  </p>
+                  <blockquote cite="https://www.genesisca.org/single-post/2019/06/17/be-the-change#:~:text=We've%20all%20heard%20the,often%20credited%20with%20saying%20this.">
+                    "We but mirror the world. All the tendencies present in the outer world are to be found in the world of our body. If we could change ourselves, the tendencies in the world would also change.<br />As a man changes his own nature, so does the attitude of the world change towards him. This is the divine mystery supreme. A wonderful thing it is and the source of our happiness. We need not wait to see what others do.”
+                  </blockquote>
+                  <p>
+                    If I have not lost your interest so far, click the following link to learn more <a href="About_me.html">About me</a>
+                  </p>
+                  <p>if my life had a theme song:</p>
+                  <audio controls autoplay>
+                    <source src="images/gumption.mp3" type="audio/mpeg" />
                     Your browser does not support the audio element.
-                    </audio>
-            </div>
-            <aside>
-                <figure>
-                    <img src="images/me.png" alt ="me drinking coffee">
-                    <figcaption>
-                      I dont drink coffee, this is tea
-                    </figcaption>
-                </figure>
-            </aside>
+                  </audio>
+                </div>
+              </div>
+          
+           
+    
 
-
-        <footer>
-            <div>
-                <a href="mailto:luhygenet@gmail.com">luhygenet@gmail.com</a>
-            </div>
-            <div>
-                <aside>
-                    <a href="https://www.instagram.com/luhy_genet_/"><img src="images/instagram.jpg" alt="instagram" width="20"></a>
-                    <a href="https://www.linkedin.com/in/liya-daniel-51b73225b/"><img src="images/linkedin.png" alt="linkedin"  width="20"></a>
-                    <a href="https://t.me/Luhy_gen"><img src="images/telegram.png" alt="telegram"  width="20"></a>
-                </aside>
-            </div>
-        </footer>
-    </body>
+              <footer class="d-flex justify-content-between bg-warning">
+                <div class="col-9 d-flex justify-content-start">
+                  <a href="mailto:luhygenet@gmail.com">luhygenet@gmail.com</a>
+                </div>
+                <div class="col-3 d-flex justify-content-end">
+                  <aside class="footer_information d-flex">
+                    <a href="https://www.instagram.com/luhy_genet_/"><img src="images/instagram.jpg" alt="instagram" width="20" /></a>
+                    <a href="https://www.linkedin.com/in/liya-daniel-51b73225b/"><img src="images/linkedin.png" alt="linkedin" width="20" /></a>
+                    <a href="https://t.me/Luhy_gen"><img src="images/telegram.png" alt="telegram" width="20" /></a>
+                  </aside>
+                </div>
+              </footer>
+  
+    </div>
+    
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
 
 

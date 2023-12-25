@@ -1,80 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./assets/css/main.min.css">
+    <!--<script src ="responsive.js" defer></script>-->
+    
+<style>
+  .top_head {
+    background-image: url("images/coffee.png");
+  }
+  a{
+        color: black;
+      }
+</style>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Resume</title>
-</head>
-<body>
-    <header>
-            <img src="images/Resume.jpg" alt="resume">
-            <nav>
-                <div>
-                    <img src="imaes/icon.jpg" alt="Logo" class="logo">
-                    <h1>Liya Daniel</h1>
+  </head>
+  <body class="screen-size">
+    <div class="page_total">
+      <div class="page_total--homeheader">
+        <div class="screen-size top_head">
+          <div class="top_heads">
+            <a href = "#" class="name">LIYA DANIEL</a>
+            <div class="dropdown mt-3 d-md-none d-flex justify-content-end">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="bool-dropdown" data-bs-toggle="dropdown">
+                Resume
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="bool-dropdown">
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./About_me.html">About me</a></li>
+                <li><a href="./Hobbies.html">Hobbies</a></li>
+                <li><a href="./favorite_places.html">Favorite places</a></li>
+              </ul>
+            </div>
+            
+            <div class="d-none d-md-flex justify-content-end">
+              <div class="ms-auto">
+                <a href="./home.html" class="btn btn-secondary mt-3">Home</a>
+                <a href="./About_me.html" class="btn btn-secondary mt-3">About me</a></li>
+                <a href="./Resume.html" class="btn btn-secondary mt-3">Resume</a>
+                <a href="./Hobbies.html" class="btn btn-secondary mt-3">Hobbies</a>
+                <a href="./favorite_places.html" class="btn btn-secondary mt-3">Favorite places</a>
+              </div>
+            </div>
+            <div class="slider-wrapper screen-size">
+              
+              <button id ="prev-slide" class="slide-button material-symbols-outlined">chevron_left</button>
+              <div class="row">
+                
+                <div class="col">
+                  <img src="images/typing.png" alt="about me image" class="col img-fluid" />
                 </div>
-                <ul>
-                    <li><a href="./home.html">Home</a></li>
-                    <li><a href="./About_me.html">About me</a></li>
-                    <li><a href="./Resume.html">Resume</a></li>
-                    <li><a href="./Hobbies.html">Hobbies</a></li>
-                    <li><a href="./favorite_places.html">favorite places</a></li>
-                </ul>
-            </nav>
-    </header>
-    <div>
+                <div class="col">
+                  <img src="images/Resume.jpg" alt="about me image" class="col img-fluid" />
+                </div>
+                <div class="col">
+                  <img src="images/sucess.jpg" alt="about me image" class="col img-fluid" />
+                </div>
+              </div>
+           
+              <button id ="next-slide" class="slide-button material-symbols-outlined">chevron_right</button>
+              <div class = "slider-scrollbar">
+                <div class="scrollbar-track">
+                  <div class="scrollbar-thumb"></div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="page_name screen-size">  
         <aside>
-            <h1>Resume</h1>
+          <h1 class="lead text-end bg-secondary">Resume</h1>
         </aside>
-    </div>
-    <section>
-        <div>
-            <h2> <img src="images/solve_it.png" alt="solve it logo" >solve It</h2>
-            <p><a href="https://icog-labs.com/solveit/">Solve IT</a> has been guiding young Ethiopians into the realm of tech entrepreneurship. <br>Took part in a competition to bring forth my problem-solving and creative
-                skills to bring a solution for the community as a whole.</p>
-        </div>
-        <div>
-            <h2><img src="images/phyton.jpg" alt="phyton logo" >Python programming workshop</h2>
-            <p>A workshop where students from different areas come together and take part in a series of competitions comprising problem solving. <br>Team came in second place.</p>
-        </div>
-        <div>
-            <h2><img src="images/tutor.png" alt="tutor logo" >Tutoring I have done</h2>
-            <ul>
-                <li> Taught programming to kids aged 7-14</li>
-                <li> Taught in a public school on weekends</li>
-                <li> Provided red cross training</li>
-            </ul>
-        </div>
-    </section>
-    <aside>
-        <section>
-            <img src="images/resume3.jpg" alt="resume picture" >
+      </div>
+      
+      <div class="container m-10">
+        <div class="row">
+          <div class="col-md-6 mb-10">
             <div>
-                <h2>Others</h2>
+              <h2>
+                <div class="row">
+                  <img src="images/solve_it.png" alt="solve it logo" class="w-50">
+                </div>
+              </h2>
+              <p>
+                <a href="https://icog-labs.com/solveit/">Solve IT</a> has been guiding young Ethiopians into the realm of tech entrepreneurship.
+                <br>Took part in a competition to bring forth my problem-solving and creative skills to bring a solution for the community as a whole.
+              </p>
+            </div>
+            <div>
+              <h2>
+                <div class="row">
+                  <img src="images/phyton.jpg" alt="phyton logo" class="w-50">
+                  Python programming workshop
+                </div>
+              </h2>
+              <p>
+                A workshop where students from different areas come together and take part in a series of competitions comprising problem solving.
+                <br>Team came in second place.
+              </p>
+            </div>
+            <div>
+              <h2>
+                <div class="row">
+                  <img src="images/tutor.png" alt="tutor logo" class="w-50">
+                  Tutoring I have done
+                </div>
+              </h2>
+              <ul>
+                <li>Taught programming to kids aged 7-14</li>
+                <li>Taught in a public school on weekends</li>
+                <li>Provided red cross training</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col">
+                <img src="images/resume3.jpg" alt="resume picture" class="w-50">
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col">
+                <h2 class="font-serif font-bold text-lg mb-7">Others</h2>
                 <ul>
-                    <li>Data Structure projects</li>
-                    <li>Arduino workshop</li>
-                    <li>Red cross treasurer</li>
-                    <li>Coursera online web development course</li>
-                    <li>lilu house weekend secretary</li>
+                  <li>Data Structure projects</li>
+                  <li>Arduino workshop</li>
+                  <li>Red cross treasurer</li>
+                  <li>Coursera online web development course</li>
+                  <li>lilu house weekend secretary</li>
                 </ul>
+              </div>
             </div>
-            <a href="images/resume.pdf" download target="_blank">
-                Download resume
-            </a>
-         </section>
-         <footer>
-            <div>
-                <a href="mailto:luhygenet@gmail.com">luhygenet@gmail.com</a>
+            <div class="row">
+              <div class="col">
+                <a href="images/resume.pdf" download target="_blank" class="btn btn-primary">Download resume</a>
+              </div>
             </div>
-            <div>
-                <aside>
-                    <a href="https://www.instagram.com/luhy_genet_/"><img src="images/instagram.jpg" alt="instagram" width="20"></a>
-                    <a href="https://www.linkedin.com/in/liya-daniel-51b73225b/"><img src="images/linkedin.png" alt="linkedin"  width="20"></a>
-                    <a href="https://t.me/Luhy_gen"><img src="images/telegram.png" alt="telegram"  width="20"></a>
-                </aside>
-            </div>
-        </footer>
-    </aside>
-</body>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+      <footer class="d-flex justify-content-between bg-warning">
+        <div class="col-9 d-flex justify-content-start">
+          <a href="mailto:luhygenet@gmail.com">luhygenet@gmail.com</a>
+        </div>
+        <div class="col-3 d-flex justify-content-end">
+          <aside class="footer_information d-flex">
+            <a href="https://www.instagram.com/luhy_genet_/"><img src="images/instagram.jpg" alt="instagram" width="20" /></a>
+            <a href="https://www.linkedin.com/in/liya-daniel-51b73225b/"><img src="images/linkedin.png" alt="linkedin" width="20" /></a>
+            <a href="https://t.me/Luhy_gen"><img src="images/telegram.png" alt="telegram" width="20" /></a>
+          </aside>
+        </div>
+      </footer>
+       
+
+      <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+  </body>
 </html>
